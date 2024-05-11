@@ -28,3 +28,11 @@
 - Functions
 - Conditions
 
+### Install Typescript And Transpile Files :
+- Install Nodejs
+- Be Sure Nodejs Is Installed => Check From Terminal With Command “node -v”
+- Install Typescript with command ```npm i -g typescript```
+- Be Sure Typescript Is Installed => Check From Terminal With Command “tsc -v”
+- Create TS File
+- Compile JS File with command ```tsc index.ts```
+- Check TS Playground
