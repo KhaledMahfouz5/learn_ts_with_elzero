@@ -1,15 +1,9 @@
 /*
-  Type Annotations With Arrays
+  Type Annotations With Multidimensional Arrays
 */
 
-let all: string | number | boolean = "Osama";
+let arrayOne: number[] = [1, 2, 3, 4, 5];
+let arrayTwo: string[] = [A, B, C];
+let arrayThree: (string | number)[] = [1, 2, 3, 4, A, B, C];
 
-all = "A";
-all = 100;
-all = true;
-
-let myFriends: string[] = ["Osama", "Ahmed", "Sayed"];
-
-for (let i = 0; i < myFriends.length; i++) {
-  console.log(myFriends[i].repeat(3));
-}
+let arrayFour: (string | number | string[] | boolean)[] = [1, 2, 3, 4, A, B, [C, D], true, false];
